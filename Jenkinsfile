@@ -6,7 +6,7 @@
    }
    stage('integration tests'){
         node('build'){
-            sh 'sleep 10s;'
+            sh 'sleep 20s;'
         }
    }
    stage('acceptance-tests'){
